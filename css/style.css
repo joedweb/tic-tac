@@ -1,9 +1,9 @@
 body {
-    background: #88BDBC;
+    background: #53900F;
 }
 
 #board {
-    background-color: #6E6658 ;
+    background-color: #D6CE15;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -25,7 +25,7 @@ body {
     display: flex;
     justify-content: center;
     cursor: pointer;
-    border: 1px solid #ccc;
+    border: 1px solid #A4A71E;
     transition: transform 0.2s;
     transform: scale(1);
     transform-style: preserve-3d;
@@ -37,6 +37,6 @@ body {
 }
 
 .cell:hover {
-background-color: rgb(51, 43, 34);
+background-color: #1F6521;
 transform: scale(1.05) rotateY(15deg);
 }
